@@ -144,7 +144,7 @@
             bindings = <
 &kp EXCL   &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT                               &kp CARET              &kp AMPERSAND     &kp ASTERISK       &kp TILDE      &kp PIPE
 &kp GRAVE  &kp SQT  &kp DQT   &kp UNDER   &kp LEFT_PARENTHESIS  &none       &trans  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp PLUS
-&trans     &trans   &trans    &trans      &kp LEFT_BRACE        &none       &trans  &kp RIGHT_BRACE        &trans            &trans             &trans         &trans
+&trans     &trans   &trans    &trans      &kp LEFT_BRACE        &none       &kp LA(PSCRN)  &kp RIGHT_BRACE        &trans            &trans             &trans         &trans
 &trans     &trans   &trans    &trans      &trans                &trans      &trans  &trans                                                                     &trans
             >;
         };
